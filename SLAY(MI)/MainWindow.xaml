@@ -1,0 +1,50 @@
+﻿<Window x:Class="SLAY_MI_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SLAY_MI_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label FontSize="30" x:Name="label" Content="X1" HorizontalAlignment="Left" Margin="93,93,0,0" VerticalAlignment="Top" Width="42" Height="50"/>
+        <Label FontSize="30" x:Name="label_Copy4" Content="X1" HorizontalAlignment="Left" Margin="93,134,0,0" VerticalAlignment="Top" Width="42" Height="50"/>
+        <Label FontSize="30" x:Name="label_Copy5" Content="X2" HorizontalAlignment="Left" Margin="215,137,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.212,0.579" Width="45" Height="48"/>
+        <Label FontSize="30" x:Name="label_Copy8" Content="X2 + 0X3 + 0X4 + 0X5 = " HorizontalAlignment="Left" Margin="218,97,0,0" VerticalAlignment="Top" Width="400" Height="60"/>
+        <Label FontSize="30" x:Name="label_Copy9" Content="0X1" HorizontalAlignment="Left" Margin="85,167,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label FontSize="30" x:Name="label_Copy10" Content="X2" HorizontalAlignment="Left" Margin="216,174,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.212,0.579" Width="49"/>
+        <Label FontSize="30" x:Name="label_Copy11" Content="X3" HorizontalAlignment="Left" Margin="340,174,0,0" VerticalAlignment="Top" Width="45"/>
+        <Label FontSize="30" x:Name="label_Copy12" Content="X4 + 0X5 = " HorizontalAlignment="Left" Margin="453,174,0,0" VerticalAlignment="Top" Width="162"/>
+        <Label FontSize="30" x:Name="label_Copy13" Content="X3 + 0X4 + 0X5 = " HorizontalAlignment="Left" Margin="340,137,0,0" VerticalAlignment="Top" Width="260"/>
+        <Label FontSize="30" x:Name="label_Copy14" Content="0X1 + 0X2" HorizontalAlignment="Left" Margin="80,214,0,0" VerticalAlignment="Top" Width="160"/>
+        <Label FontSize="30" x:Name="label_Copy16" Content="X3" HorizontalAlignment="Left" Margin="294,214,0,0" VerticalAlignment="Top" Width="46"/>
+        <Label FontSize="30" x:Name="label_Copy17" Content="X4" HorizontalAlignment="Left" Margin="405,217,0,0" VerticalAlignment="Top" Width="45"/>
+        <Label FontSize="30" x:Name="label_Copy18" Content="X5 = " HorizontalAlignment="Left" Margin="516,217,0,0" VerticalAlignment="Top" Width="89"/>
+        <Label FontSize="30" x:Name="label_Copy19" Content="0X1 + 0X2+0X3+" HorizontalAlignment="Left" Margin="80,254,0,0" VerticalAlignment="Top" Width="242"/>
+        <Label FontSize="30" x:Name="label_Copy22" Content="X4" HorizontalAlignment="Left" Margin="371,254,0,0" VerticalAlignment="Top" Width="47"/>
+        <Label FontSize="30" x:Name="label_Copy23" Content="X5 = " HorizontalAlignment="Left" Margin="480,254,0,0" VerticalAlignment="Top" Width="80"/>
+        <TextBox FontSize="14"  x:Name="C0" HorizontalAlignment="Left" Margin="40,103,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="41" Text="-3,14"/>
+        <TextBox FontSize="14"  x:Name="B0" HorizontalAlignment="Left" Margin="160,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="40" Text="1"/>
+        <TextBox FontSize="14"  x:Name="A1" HorizontalAlignment="Left" Margin="40,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="40" Text="1"/>
+        <TextBox FontSize="14"  x:Name="C1" HorizontalAlignment="Left" Margin="160,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="40" Text="-2"/>
+        <TextBox FontSize="14"  x:Name="B1" HorizontalAlignment="Left" Margin="280,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="40" Text="1"/>
+        <TextBox FontSize="14"  x:Name="A2" HorizontalAlignment="Left" Margin="160,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="40" Text="1"/>
+        <TextBox FontSize="14"  x:Name="C2" HorizontalAlignment="Left" Margin="280,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="40" Text="-2"/>
+        <TextBox FontSize="14"  x:Name="B2" HorizontalAlignment="Left" Margin="400,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="40" Text="1"/>
+        <TextBox FontSize="14"  x:Name="A3" HorizontalAlignment="Left" Margin="240,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="40" Text="1"/>
+        <TextBox FontSize="14"  x:Name="C3" HorizontalAlignment="Left" Margin="360,223,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="41" Text="-2"/>
+        <TextBox FontSize="14"  x:Name="B3" HorizontalAlignment="Left" Margin="460,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="40" Text="1"/>
+        <TextBox FontSize="14"  x:Name="A4" HorizontalAlignment="Left" Margin="319,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="42" Height="40" Text="1"/>
+        <TextBox FontSize="14"  x:Name="C4" HorizontalAlignment="Left" Margin="420,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="40" Text="-3,14"/>
+        <TextBox FontSize="14"  x:Name="Y1" HorizontalAlignment="Left" Margin="620,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="40" Text="0"/>
+        <TextBox FontSize="14"  x:Name="Y2" HorizontalAlignment="Left" Margin="620,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="40" Text="7"/>
+        <TextBox FontSize="14"  x:Name="Y3" HorizontalAlignment="Left" Margin="620,184,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="40" Text="7"/>
+        <TextBox FontSize="14"  x:Name="Y4" Margin="620,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="40" HorizontalAlignment="Left" Width="40" Text="7"/>
+        <TextBox FontSize="14"  x:Name="Y5" HorizontalAlignment="Left" Margin="620,264,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="40" Height="40" Text="0"/>
+        <Button FontSize="20" x:Name="button" Content="Решить" HorizontalAlignment="Left" Margin="240,34,0,0" VerticalAlignment="Top" Width="81" Click="button_Click" Height="30"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Margin="80,304,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Height="105"/>
+        <Label x:Name="label1" Content="Степень точности = " HorizontalAlignment="Left" Margin="50,39,0,0" VerticalAlignment="Top" Height="25" Width="120"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Margin="170,44,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="50" Height="20" Text="-4"/>
+
+    </Grid>
+</Window>
